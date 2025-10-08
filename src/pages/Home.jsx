@@ -1,6 +1,6 @@
 import React from "react";
-import Hero from "../Components/Hero";
-// import HomeProduct from "../Components/HomeProduct";
+import Hero from "../Componants/Hero";
+import HomeProduct from "../Componants/HomeProduct";
 import { useAppApi } from "../Hooks/useAppAPi";
 import { Link } from "react-router";
 
@@ -32,12 +32,12 @@ const Home = () => {
       )}
 
       <div className="flex  justify-center items-center">
-        {/* <Link
+        <Link
           to={"/allapps"}
           className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white w-40 mt-[40px] h-12 mb-10"
         >
           Show All
-        </Link> */}
+        </Link>
       </div>
     </div>
   );
