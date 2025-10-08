@@ -92,7 +92,7 @@ const Navbar = () => {
           </div>
           <div className="navbar-end">
             <a
-              href="https://github.com/Yeasinoncode98/"
+              href="https://github.com/rabbi007"
               target="_blank"
               rel="noopener noreferrer"
               className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white w-40 h-12"
