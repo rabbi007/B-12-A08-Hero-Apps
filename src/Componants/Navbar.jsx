@@ -1,7 +1,8 @@
 import React from "react";
 import { Link, useLocation } from "react-router";
 import logo from "../assets/logo.png";
-import { Github } from "lucide-react";
+// import { Github } from "lucide-react";
+import { SiRefinedgithub } from "react-icons/si";
 
 const Navbar = () => {
   const location = useLocation();
@@ -49,7 +50,7 @@ const Navbar = () => {
 
   return (
     <div className="bg-base-100 shadow-sm">
-      <div className="allcontainer">
+      <div className="container">
         <div className="navbar">
           <div className="navbar-start">
             <div className="dropdown">
@@ -97,7 +98,7 @@ const Navbar = () => {
               rel="noopener noreferrer"
               className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white w-40 h-12"
             >
-              <Github /> Contribute
+               <SiRefinedgithub size={30}/> Contribute
             </a>
           </div>
         </div>
