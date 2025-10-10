@@ -9,7 +9,7 @@ const Navbar = () => {
 
   const link = (
     <>
-      <li>
+      <li className="text-lg">
         <Link
           to="/"
           className={`relative ${
@@ -21,7 +21,7 @@ const Navbar = () => {
           Home
         </Link>
       </li>
-      <li>
+      <li className="text-lg">
         <Link
           to="/allapps"
           className={`relative ${
@@ -33,7 +33,7 @@ const Navbar = () => {
           Apps
         </Link>
       </li>
-      <li>
+      <li className="text-lg">
         <Link
           to="/installiton"
           className={`relative ${
@@ -95,8 +95,8 @@ const Navbar = () => {
             <a
               href="https://github.com/rabbi007"
               target="_blank"
-              rel="noopener noreferrer"
-              className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white w-40 h-12"
+              rel=""
+              className="text-lg btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white w-40 h-12"
             >
                <SiRefinedgithub size={30}/> Contribute
             </a>
