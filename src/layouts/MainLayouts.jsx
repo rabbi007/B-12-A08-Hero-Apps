@@ -11,7 +11,7 @@ const MainLayouts = () => {
     <div className="min-h-screen flex flex-col">
       <Navbar />
 
-      <main className="flex-grow">
+      <main className="flex-grow bg-[#f9f9f9]">
         <Outlet />
       </main>
 

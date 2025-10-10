@@ -44,8 +44,8 @@ const AllApps = () => {
 
   if (loading) {
     return (
-      <div className="flex justify-center items-center h-screen">
-        <span className="loading loading-spinner loading-lg"></span>
+      <div className="flex justify-center items-center h-screen mt-[50px]">
+        <span className="loading loading-bars loading-xl"></span>
       </div>
     );
   }
@@ -55,13 +55,13 @@ const AllApps = () => {
       <div className="max-w-[1440px] mx-auto px-4">
         <div className="mt-[70px] space-y-3 text-center">
           <h1 className="font-bold text-4xl">Our All Applications</h1>
-          <p className="text-gray-300">
+          <p className="text-gray-500 italic">
             Explore All Apps on the Market developed by us. We code for Millions
           </p>
         </div>
 
         <div className="flex justify-between items-center mt-6 max-sm:flex-col max-sm:gap-3">
-          <h1 className="font-bold">({filteredApps.length}) Apps Found</h1>
+          <h1 className="font-bold">({filteredApps.length}) App(s) Found</h1>
           <input
             value={searchValue}
             onChange={(e) => setSearchValue(e.target.value)}
@@ -73,7 +73,7 @@ const AllApps = () => {
 
         {isSearching ? (
           <div className="flex justify-center items-center mt-10">
-            <span className="loading loading-spinner loading-xl"></span>
+            <span className="loading loading-ring loading-xl"></span>
           </div>
         ) : filteredApps.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-10">

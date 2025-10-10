@@ -14,17 +14,17 @@ const Home = () => {
       <Hero></Hero>
       <div className="mt-[70px] space-y-3">
         <h1 className="font-bold text-4xl text-center">Trending Apps</h1>
-        <p className="text-gray-400 text-center">
+        <p className="text-gray-500 text-center italic">
           Explore All Trending Apps on the Market developed by us
         </p>
       </div>
 
       {loading ? (
         <div className="flex justify-center items-center mt-10">
-          <span className="loading loading-spinner loading-xl"></span>
+          <span className="loading loading-spinner text-success"></span>
         </div>
       ) : (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 max-sm:p-5 gap-5 max-w-7xl mx-auto mt-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 max-sm:p-5 gap-5 max-w-7xl mx-auto mt-10 p-5">
           {homeData.map((data) => (
             <HomeProduct key={data.id} data={data}></HomeProduct>
           ))}

@@ -13,7 +13,7 @@ const Detailes = () => {
   const findData = app.find((data) => data.id === Number(id));
 
   if (!findData) {
-    return <p className="text-center p-10">Loading...</p>;
+    return <p className="text-center p-10">Loading...<span className="loading loading-bars loading-xl"></span></p>;
   }
 
   const ratingData = findData.ratings;

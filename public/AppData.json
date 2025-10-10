@@ -107,23 +107,12 @@
     "downloads": "1B+",
     "ratings": [{"name": "1 star", "count": 1525000}, {"name": "2 star", "count": 915000}, {"name": "3 star", "count": 1830000}, {"name": "4 star", "count": 4575000}, {"name": "5 star", "count": 21655000}]
   },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Spotify_logo_with_text.svg/2560px-Spotify_logo_with_text.svg.png",
-    "title": "Spotify: Music and Podcasts",
-    "companyName": "Spotify AB",
-    "id": 8,
-    "description": "Spotify is a comprehensive audio streaming service that gives you access to a massive world of music and podcasts. With millions of tracks from artists all over the globe, it allows you to listen to your favorite songs, discover new music, and create personalized playlists for any mood or moment. The service is built around discovery, helping you find your next favorite song or podcast with ease. Its clean interface and reliable performance make it a leading choice for audio streaming.\n\nThe app's standout feature is its powerful personalization engine. Curated playlists like 'Discover Weekly' and 'Release Radar' are tailored specifically to your listening habits, introducing you to new music you're likely to love. You can also create collaborative playlists with friends, see what others are listening to, and use Spotify Connect to seamlessly switch playback between your phone, speaker, and other devices. The platform is also a major destination for podcasts, offering a vast library of shows on every topic imaginable.\n\nFor music lovers and podcast enthusiasts, Spotify is an essential service. It’s a gateway to an almost infinite library of audio content, all organized and personalized for you. Whether you're looking for the perfect workout playlist, a podcast for your commute, or just want to explore new genres, Spotify provides the tools to soundtrack your life. It's a personal DJ that understands your taste and constantly helps you discover more of what you love.",
-    "size": 80,
-    "reviews": "28M",
-    "ratingAvg": 4.7,
-    "downloads": "1B+",
-    "ratings": [{"name": "1 star", "count": 840000}, {"name": "2 star", "count": 560000}, {"name": "3 star", "count": 1120000}, {"name": "4 star", "count": 3360000}, {"name": "5 star", "count": 22120000}]
-  },
+  
   {
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/X_logo_2023.svg/2048px-X_logo_2023.svg.png",
     "title": "X (formerly Twitter)",
     "companyName": "X Corp.",
-    "id": 9,
+    "id": 8,
     "description": "X is the real-time information network where you can see what's happening in the world and join the public conversation. It's a platform defined by brevity and immediacy, where users share short updates, news, and opinions. The timeline is a constantly flowing stream of information, from breaking news headlines to commentary from public figures and everyday people. This makes it an indispensable tool for staying informed on events as they unfold, providing a raw and unfiltered look at global happenings.\n\nA unique feature of X is its role as a global town square. Hashtags organize conversations around specific topics, allowing users to tap into trending discussions and events instantly. 'Spaces' provide a venue for live audio conversations, enabling more nuanced and interactive discussions. The platform's open nature means you can follow and interact with anyone, from world leaders and journalists to celebrities and experts in any field, giving you direct access to a wide range of perspectives.\n\nFor people who want to stay on the pulse of the world, X is the ultimate resource. It’s where news breaks first and where global conversations take shape. By combining instant updates with public discourse, the app allows you to not only consume information but also participate in the dialogue. Whether you're following sports, politics, tech, or entertainment, X provides a dynamic and fast-paced environment to learn, share, and engage with what's happening right now.",
     "size": 110,
     "reviews": "25M",
@@ -131,6 +120,19 @@
     "downloads": "1B+",
     "ratings": [{"name": "1 star", "count": 2750000}, {"name": "2 star", "count": 1250000}, {"name": "3 star", "count": 2500000}, {"name": "4 star", "count": 5000000}, {"name": "5 star", "count": 13500000}]
   },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Spotify_logo_with_text.svg/2560px-Spotify_logo_with_text.svg.png",
+    "title": "Spotify: Music and Podcasts",
+    "companyName": "Spotify AB",
+    "id": 9,
+    "description": "Spotify is a comprehensive audio streaming service that gives you access to a massive world of music and podcasts. With millions of tracks from artists all over the globe, it allows you to listen to your favorite songs, discover new music, and create personalized playlists for any mood or moment. The service is built around discovery, helping you find your next favorite song or podcast with ease. Its clean interface and reliable performance make it a leading choice for audio streaming.\n\nThe app's standout feature is its powerful personalization engine. Curated playlists like 'Discover Weekly' and 'Release Radar' are tailored specifically to your listening habits, introducing you to new music you're likely to love. You can also create collaborative playlists with friends, see what others are listening to, and use Spotify Connect to seamlessly switch playback between your phone, speaker, and other devices. The platform is also a major destination for podcasts, offering a vast library of shows on every topic imaginable.\n\nFor music lovers and podcast enthusiasts, Spotify is an essential service. It’s a gateway to an almost infinite library of audio content, all organized and personalized for you. Whether you're looking for the perfect workout playlist, a podcast for your commute, or just want to explore new genres, Spotify provides the tools to soundtrack your life. It's a personal DJ that understands your taste and constantly helps you discover more of what you love.",
+    "size": 80,
+    "reviews": "28M",
+    "ratingAvg": 4.7,
+    "downloads": "1B+",
+    "ratings": [{"name": "1 star", "count": 840000}, {"name": "2 star", "count": 560000}, {"name": "3 star", "count": 1120000}, {"name": "4 star", "count": 3360000}, {"name": "5 star", "count": 22120000}]
+  },
+  
   {
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/2048px-Telegram_logo.svg.png",
     "title": "Telegram",
