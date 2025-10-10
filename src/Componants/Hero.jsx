@@ -15,7 +15,7 @@ const Hero = () => {
           Apps
         </h1>
         <p className="text-center mt-5 text-gray-500 italic">
-          At <span className="font-bold">Hero.io </span>we craft innovative apps designed to make everyday life
+          At <span className="font-bold">AppVault, </span>we craft innovative apps designed to make everyday life
           simpler, smarter, and more exciting. <br />
           Our goal is to turn your ideas into digital experiences that truly
           make an impact.

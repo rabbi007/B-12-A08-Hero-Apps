@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, useLocation } from "react-router";
-import logo from "../assets/logo.png";
+import logo from "../assets/AppVault.gif";
 // import { Github } from "lucide-react";
 import { SiRefinedgithub } from "react-icons/si";
 
@@ -82,9 +82,9 @@ const Navbar = () => {
               </ul>
             </div>
             <Link to="/" className="btn btn-ghost text-xl">
-              <img className="h-[40px] w-[40px]" src={logo} alt="" />
+              <img className="h-[60px] w-[60px] object-cover" src={logo} alt="" />
               <span className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
-                HERO.IO
+                AppVault
               </span>
             </Link>
           </div>
