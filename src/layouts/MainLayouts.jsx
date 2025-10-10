@@ -9,7 +9,7 @@ const MainLayouts = () => {
     <div className="min-h-screen flex flex-col">
       <Navbar />
 
-      <main className="flex-grow bg-[#f9f9f9] flex flex-col items-center justify-center w-full">
+      <main className="flex-grow bg-[#f9f9f9]">
         <Outlet />
       </main>
 
