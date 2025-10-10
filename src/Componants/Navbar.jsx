@@ -82,7 +82,11 @@ const Navbar = () => {
               </ul>
             </div>
             <Link to="/" className="btn btn-ghost text-xl">
-              <img className="h-[60px] w-[60px] object-cover" src={logo} alt="" />
+              <img
+                className="h-[60px] w-[60px] object-cover"
+                src={logo}
+                alt=""
+              />
               <span className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
                 AppVault
               </span>
@@ -98,7 +102,7 @@ const Navbar = () => {
               rel=""
               className="text-lg btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white w-40 h-12"
             >
-               <SiRefinedgithub size={30}/> Contribute
+              <SiRefinedgithub size={30} /> Contribute
             </a>
           </div>
         </div>
@@ -108,4 +112,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-

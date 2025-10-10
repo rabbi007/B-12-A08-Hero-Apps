@@ -15,8 +15,9 @@ const Hero = () => {
           Apps
         </h1>
         <p className="text-center mt-5 text-gray-500 italic">
-          At <span className="font-bold">AppVault, </span>we craft innovative apps designed to make everyday life
-          simpler, smarter, and more exciting. <br />
+          At <span className="font-bold">AppVault, </span>we craft innovative
+          apps designed to make everyday life simpler, smarter, and more
+          exciting. <br />
           Our goal is to turn your ideas into digital experiences that truly
           make an impact.
         </p>
@@ -28,7 +29,10 @@ const Hero = () => {
           >
             <img src={GooglePlay} alt="Google Play Store" /> Google Play
           </a>
-          <a href="https://www.apple.com/app-store/" className="btn border-gray-500">
+          <a
+            href="https://www.apple.com/app-store/"
+            className="btn border-gray-500"
+          >
             <img src={appStore} alt="App Store" /> App Store
           </a>
         </div>

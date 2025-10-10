@@ -22,11 +22,13 @@ const HomeProduct = ({ data }) => {
 
           <div className="flex justify-between space-x-35 w-full mt-3">
             <p className="text-green-400 flex justify-center border rounded  items-center">
-              <img className="h-[17px] m-1" src={downloadIcon} alt="" />{"\u00A0"}
+              <img className="h-[17px] m-1" src={downloadIcon} alt="" />
+              {"\u00A0"}
               {data.downloads}
             </p>
             <p className="text-orange-400 flex justify-center items-center border rounded">
-              <img className="h-[17px] m-1" src={ratingIcon} alt="" />{"\u00A0"}
+              <img className="h-[17px] m-1" src={ratingIcon} alt="" />
+              {"\u00A0"}
               {data.ratingAvg}
             </p>
           </div>
